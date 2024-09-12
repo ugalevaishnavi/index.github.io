@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            background-color: pink;
+        }
+        h1{
+            text-align: center;
+            margin-top: 100px;
+            color: palevioletred;
+            font-size:xx-large;
+        }
+        .a1{
+            margin: auto;
+            position: absolute;
+            top:0; left: 0; bottom: 0; right: 0;
+            text-align: center;
+            height: auto;
+            height: 300px;
+            line-height: 200px;
+        }
+        .fa-heart{
+            margin-top: auto;
+            margin-right: auto;
+            font-size: 18em;
+            color: red;
+            animation-duration: 5s;
+            animation-name:beating;
+            animation-iteration-count: infinite;
+
+        }
+        @-webkit-keyframes beating{
+            0%,20%,100%{transfrom:scale(0,8);
+            opacity: 0.2;
+        }
+        25%{
+            transform: scale(1.2);
+            opacity: 1;
+        }
+        35%{
+            transform: scale(0.8);
+         }
+         40%{
+            transform: scale(1.1);
+            opacity: 1;
+         }
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <h1> Good Morning</h1>
+    <div class="a1">
+        <i class="fa fa-heart"></i>
+    </div>
+</body>
+</html>
